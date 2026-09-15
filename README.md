@@ -1,6 +1,6 @@
-# 🎨 AI PDD Generator
+# 🚀 AI PRD Generator
 
-Generate comprehensive **Product Design Documents** through warm, conversational AI interviews.
+Generate comprehensive **Product Requirements Documents** through warm, conversational AI interviews.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)]()
@@ -19,22 +19,22 @@ Generate comprehensive **Product Design Documents** through warm, conversational
 
 ### Claude Code
 ```bash
-git clone https://github.com/Vann4799/ai-pdd-generator.git ~/.claude/ai-pdd-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.claude/ai-prd-generator
 ```
 
 ### Codex
 ```bash
-git clone https://github.com/Vann4799/ai-pdd-generator.git ~/.codex/ai-pdd-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.codex/ai-prd-generator
 ```
 
 ### OpenCode
 ```bash
-git clone https://github.com/Vann4799/ai-pdd-generator.git ~/.opencode/skills/ai-pdd-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.opencode/skills/ai-prd-generator
 ```
 
 ### Hermes Agent
 ```bash
-hermes skills install Vann4799/ai-pdd-generator
+hermes skills install Vann4799/ai-prd-generator
 ```
 
 ## 🎯 Usage
@@ -42,8 +42,19 @@ hermes skills install Vann4799/ai-pdd-generator
 Simply say:
 
 ```
-"Buat PDD untuk aplikasi kasir toko"
+"Buat PRD untuk aplikasi kasir toko"
 ```
+
+or:
+
+```
+"Generate a PRD for my expense tracking app"
+```
+
+The AI will:
+1. Ask questions one by one (warm, conversational)
+2. Generate a comprehensive PRD
+3. Provide a non-technical summary
 
 ## 📋 Interview Questions
 
@@ -51,24 +62,27 @@ Simply say:
 |---|--------------|---------------|
 | 1 | Apa nama aplikasinya? | What's the project name? |
 | 2 | Jenis aplikasinya apa? | What type of project? |
-| 3 | Tampilannya mau kayak gimana? | What's the design style? |
+| 3 | Ceritain dong, aplikasi ini ngapain? | Describe what it does |
 | 4 | Siapa yang bakal pakai? | Who are the target users? |
-| 5 | Gimana cara orang pakai? | What are the user flows? |
-| 6 | Halaman apa aja yang ada? | What are the key screens? |
-| 7 | Ada aturan khusus untuk tampilan? | Any design constraints? |
-| 8 | Mau Bahasa Indonesia atau English? | Language preference? |
+| 5 | Masalah apa yang mau diselesaikan? | What problem does it solve? |
+| 6 | Fitur utama apa aja? | What are the core features? |
+| 7 | Ada teknologi khusus? | Any preferred tech stack? |
+| 8 | Target selesai kapan? | What's the timeline? |
+| 9 | Gimana tau berhasil? | How will you measure success? |
+| 10 | Mau Bahasa Indonesia atau English? | Language preference? |
 
+## 📄 PRD Output
 
-## 📄 Output Structure
-
-1. Design Goals
-2. Target Users (with personas)
-3. User Flows (with ASCII diagrams)
-4. Key Screens & Features
-5. Design Specifications (colors, typography, spacing)
-6. Design Constraints
-7. Task List
-8. Non-Technical Summary
+1. Project Overview
+2. Problem Statement
+3. Target Users (with personas)
+4. Features (Must-have, Should-have, Nice-to-have)
+5. User Stories & Acceptance Criteria
+6. Technical Requirements
+7. Success Metrics
+8. Timeline & Milestones
+9. Risks & Mitigation
+10. **Non-Technical Summary** ← Bonus!
 
 ## 🤝 Contributing
 
